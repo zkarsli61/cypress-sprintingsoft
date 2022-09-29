@@ -1,0 +1,17 @@
+[
+    {
+        "StudentId": "1001",
+        "StudentName": "Tim Blanks",
+        "StudentDept": "English"
+    },
+    {
+        "StudentId": "1002",
+        "StudentName": "Alec Stoinis",
+        "StudentDept": "Physics"
+    },
+    {
+        "StudentId": "1003",
+        "StudentName": "Fiona Woods",
+        "StudentDept": "English"
+    }
+]

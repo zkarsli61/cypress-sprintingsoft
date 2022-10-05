@@ -20,8 +20,8 @@ class MainPage {
 
     hoverCoiRenew() {
         this.elements.coiRenew().should("have.css", "transform", "matrix(0.7, 0, 0, 0.7, 0, 0)")
-        this.elements.coiRenew().then(($el) => { $el.trigger('hover') });
-        // this.elements.coiRenew().should("have.css", "transform", "matrix(1, 0, 0, 1, 0, 0)")
+        this.elements.coiRenew().realHover();
+        this.elements.coiRenew().should("have.css", "transform", "matrix(1, 0, 0, 1, 0, 0)")
     }
     openMainMenu() {
         this.elements.menuButton().click({ force: true });

@@ -17,7 +17,7 @@ describe('Menu Page scenarios', () => {
     });
 
     // Actually there is no hover over action on Cypress
-    it.skip('Hover over id="Coi-Renew" element', () => {
+    it.only('Hover over id="Coi-Renew" element', () => {
         MainPage.hoverCoiRenew()
     });
 
